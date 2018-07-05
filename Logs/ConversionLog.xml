@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="1500-14-20160706_V13_SP1_1" typeText="类型" messageText="消息" timeText="时间">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:14">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="已开始升级" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:14">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="读取之前项目/库的信息。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:19">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="更新新项目/库。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:22">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="更新新项目/库。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2016/7/19 9:04:22" Debug="false">
+    <Text>正在准备转换 CPU "PLC_1" 的 S7 程序</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2016/7/19 9:04:24" Debug="false">
+    <Text>转换完成。</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2016/7/19 9:04:31" Debug="false">
+    <Text>正在转换 CPU "PLC_1" 的 S7 程序。</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2016/7/19 9:04:35" Debug="false">
+    <Text>转换完成。</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:43">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="更新新项目/库。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2016/7/19 9:04:43">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="保存已升级的项目/库。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="2016/7/19 9:04:44">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="项目 '1500-14-20160706' 已成功升级并另存为项目 '1500-14-20160706_V13_SP1_1'。" />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>

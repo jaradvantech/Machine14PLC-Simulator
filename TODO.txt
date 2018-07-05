@@ -1,0 +1,8 @@
+ALL the I/O is done through the IM 155-6 PN ST
+With the exception of the HSC that use the PLC inputs. The PLC I/O are mapped starting on the byte Q/I30.0.
+
+-All the addresses will be changed to unused bytes. Tags will remain pointing to the old addresses. 
+The Simulator will operate with the OLD ADDRESSES, this way we can set the inputs without worry that the image is overriden by the CP when processing the inputs. There is no need to reallocate the outputs, as it's the PLC who will manage them.
+
+-As we only have one PLC, without the IM155-6 PN ST, those modules have to be removed from the project in order to compile.
+
